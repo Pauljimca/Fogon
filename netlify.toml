@@ -1,0 +1,14 @@
+# Fogón is plain static files: no build step.
+[build]
+  publish = "."
+  command = ""
+
+[[headers]]
+  for = "/sw.js"
+  [headers.values]
+    Cache-Control = "no-cache"
+
+[[headers]]
+  for = "/js/*"
+  [headers.values]
+    Cache-Control = "no-cache"
