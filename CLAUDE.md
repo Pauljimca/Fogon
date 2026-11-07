@@ -25,8 +25,11 @@ Pushing to `main` updates the app on every phone the next time it is opened onli
 - No amount given → `t: 'amount?'` (or 'al gusto' / '1 pinch' when that's what he means) with `chk: 1` if it needs an answer.
 - Mark the main ingredient for "By ingredient" scaling with `sb: 1` (usually flour, meat, butter).
 - Sections: `{ s: 'Dough' }`.
-- Steps: copy his steps, cleaned into one per line, in his wording. Put amounts in braces, `{300 g}`, so they scale.
-  Fixed amounts (batch sizes like "120 g at a time") go without braces. `## Title` makes a step section.
+- Follow Paul's recipe-grams skill for conversions and output (if it's available in the chat).
+- Steps: his wording, long steps split at natural points. The grams live in the ingredient list only: don't add amounts to steps.
+  Keep amounts only when his own note puts them in the step (then convert to grams; `{300 g}` makes them scale,
+  no braces for fixed batch sizes like "120 g at a time"). Portions of a mixture ("¼ cup of batter") stay as written.
+  `## Title` makes a step section.
 - No steps given → `steps: []` (the app shows an empty space for him to fill in). Never invent steps.
 - Keep each recipe in the language he wrote it (`lang: 'en'` or `'es'`).
 - Anything unclear, missing or suspicious (unit-less numbers, typos, amounts that look off, missing ingredients)

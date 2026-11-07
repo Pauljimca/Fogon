@@ -9,7 +9,34 @@
 window.SEED_REMOVE = ['seed-fluffy-pancakes'];
 window.SEED_RECIPES = [
   {
-    id: 'seed-pizza-ninja', rev: 1, lang: 'en', title: 'Pizza ninja', servings: null,
+    id: 'seed-fluffy-pancakes-2', rev: 1, lang: 'en', title: 'Fluffy pancakes', servings: null,
+    items: [
+      { n: 'all-purpose flour', g: 187.5, tsp: 2.6, sb: 1 },
+      { n: 'baking powder, aluminum-free', g: 11.5, tsp: 4.6 },
+      { n: 'salt', g: 3, tsp: 6 },
+      { n: 'sugar', g: 25, tsp: 4.2 },
+      { n: 'milk, any', g: 302.5, tsp: 5 },
+      { n: 'egg', g: 50, egg: 1 },
+      { n: 'butter, melted', g: 42, tsp: 4.7 },
+      { n: 'vanilla extract', g: 8.4, tsp: 4.2 }
+    ],
+    steps: [
+      '## Make the batter',
+      'In a large bowl, combine the flour, baking powder, salt and sugar.',
+      'Make a well (like a volcano) in the middle and pour in the milk, egg, melted butter and vanilla extract.',
+      'Break up the egg first with a fork, then mix it with the liquid ingredients, and then combine it with the flour, working from the outside of the bowl in, until just combined and mostly smooth. Stop mixing when you no longer see flour, to avoid chewy pancakes.',
+      '## Cook the pancakes',
+      'Heat a non-stick griddle or large pan over medium heat. Once hot, grease, spray or melt butter on the hot surface. On an electric griddle, heat it to 150–175 °C. If you grease it with butter and it browns, the surface is too hot.',
+      'Immediately pour ¼ cup of batter onto the greased surface. The batter doesn\'t spread, so shape it with the back of a spoon or the scoop. Cook the first side for about 2 minutes, until the edges look defined and bubbles form. Flip and cook the second side a little less. Avoid pressing down with the spatula after flipping; this makes the pancakes dense by removing the air pockets and/or causes the batter to ooze…'
+    ],
+    notes: 'Converted from cups and spoons, so the grams are estimates. Weigh them the first time, especially the flour.',
+    check: [
+      'How many pancakes does it make? Set it as Servings.',
+      'The last step is cut off at "ooze". Is there more, and are there more steps after it?'
+    ]
+  },
+  {
+    id: 'seed-pizza-ninja', rev: 2, lang: 'en', title: 'Pizza ninja', servings: null,
     items: [
       { n: 'flour', g: 240, tsp: 2.6, sb: 1 },
       { n: 'warm water', g: 158, tsp: 4.9 },
@@ -19,7 +46,7 @@ window.SEED_RECIPES = [
       { n: 'sugar', g: 4, tsp: 4.2 }
     ],
     steps: [
-      'Put the salt ({8 g}), sugar ({4 g}), yeast ({7 g}), warm water ({158 g}) and olive oil ({53 g}) in the Ninja. Run on 1 for 10 seconds.',
+      'Put the salt, sugar, yeast, warm water and olive oil in the Ninja. Run on 1 for 10 seconds.',
       'Add the flour about 120 g at a time, running on 1 until the dough is smooth.'
     ],
     notes: 'The number of pizzas depends on the dish or pan you use.\n"About 120 g at a time" is a batch size for the machine, so it stays the same when you scale.',
@@ -77,7 +104,7 @@ window.SEED_RECIPES = [
     check: []
   },
   {
-    id: 'seed-cheesecake-basque', rev: 1, lang: 'en', title: 'Cheesecake basque', servings: null,
+    id: 'seed-cheesecake-basque', rev: 2, lang: 'en', title: 'Cheesecake basque', servings: null,
     items: [
       { n: 'cream cheese', g: 600, sb: 1 },
       { n: 'heavy cream', g: 300, tsp: 4.9 },
@@ -86,11 +113,11 @@ window.SEED_RECIPES = [
       { n: 'cornstarch (maicena)', g: 25, tsp: 2.7 }
     ],
     steps: [
-      'Mix the cream cheese ({600 g}) until smooth.',
-      'Add the cream ({300 g}) and mix.',
-      'Add the sugar ({200 g}) and mix.',
-      'Add the eggs ({200 g}) one at a time, mixing after each.',
-      'Add the cornstarch ({25 g}) and mix.',
+      'Mix the cream cheese until smooth.',
+      'Add the cream and mix.',
+      'Add the sugar and mix.',
+      'Add the eggs one at a time, mixing after each.',
+      'Add the cornstarch and mix.',
       'Preheat the oven to 225 °C, top and bottom heat, for 10 minutes.',
       'Bake 35–40 minutes. Watch the color, and cover the top if it darkens too fast.',
       'Turn off the oven and leave the cake inside with the door open for 15 minutes.',
@@ -169,7 +196,7 @@ window.SEED_RECIPES = [
     ]
   },
   {
-    id: 'seed-cinnamon-focaccia', rev: 1, lang: 'es', title: 'Cinnamon focaccia', servings: null,
+    id: 'seed-cinnamon-focaccia', rev: 2, lang: 'es', title: 'Cinnamon focaccia', servings: null,
     items: [
       { s: 'Masa' },
       { n: 'harina', g: 500, tsp: 2.6, sb: 1 },
@@ -184,7 +211,7 @@ window.SEED_RECIPES = [
       { n: 'glaseado', t: '¿receta?', chk: 1 }
     ],
     steps: [
-      'Mezcla la harina ({500 g}), la levadura ({3 g}), la sal ({12 g}), el agua ({400 g}) y el aceite ({14 g}).',
+      'Mezcla la harina, la levadura, la sal, el agua y el aceite.',
       'Deja reposar 1 hora.',
       'Haz 4 o 5 pliegues y refrigera 24 horas.',
       'Engrasa la bandeja con mantequilla derretida y pon la masa. Agrega más mantequilla derretida encima.',
@@ -202,7 +229,7 @@ window.SEED_RECIPES = [
     ]
   },
   {
-    id: 'seed-donuts', rev: 1, lang: 'es', title: 'Donuts', servings: null,
+    id: 'seed-donuts', rev: 2, lang: 'es', title: 'Donuts', servings: null,
     items: [
       { n: 'harina', g: 600, tsp: 2.6, sb: 1 },
       { n: 'leche tibia', g: 300, tsp: 5 },
@@ -213,9 +240,9 @@ window.SEED_RECIPES = [
       { n: 'sal', g: 1, tsp: 6, chk: 1 }
     ],
     steps: [
-      'Mezcla la leche ({300 g}) y la levadura ({7 g}) y espera 5 minutos.',
-      'Agrega el azúcar ({55 g}) y los demás líquidos: la mantequilla derretida ({89 g}) y los huevos ({100 g}).',
-      'Incorpora la harina ({600 g}) y la sal ({1 g}) y mezcla.'
+      'Mezcla la leche y la levadura y espera 5 minutos.',
+      'Agrega el azúcar y los demás líquidos: la mantequilla derretida y los huevos.',
+      'Incorpora la harina y la sal y mezcla.'
     ],
     notes: 'Leche: 1¼ tazas ≈ 300 g.',
     check: [
@@ -243,7 +270,7 @@ window.SEED_RECIPES = [
     ]
   },
   {
-    id: 'seed-chocolate-cake', rev: 1, lang: 'en', title: 'Chocolate cake', servings: null,
+    id: 'seed-chocolate-cake', rev: 2, lang: 'en', title: 'Chocolate cake', servings: null,
     items: [
       { s: 'Batter' },
       { n: 'flour', g: 219, tsp: 2.6, sb: 1 },
@@ -270,10 +297,10 @@ window.SEED_RECIPES = [
       '## Batter',
       'Preheat the oven to 170 °C and bake about 45 minutes, checking by eye.',
       '## Buttercream',
-      'Cream the butter ({282 g}).',
-      'Add the powdered sugar ({420 g}) little by little.',
-      'Add the cocoa ({64 g}), vanilla and salt.',
-      'Add the cream ({75 g}) little by little, mixing.'
+      'Cream the butter.',
+      'Add the powdered sugar little by little.',
+      'Add the cocoa, vanilla and salt.',
+      'Add the cream little by little, mixing.'
     ],
     notes: '',
     check: [
