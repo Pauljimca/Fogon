@@ -9,6 +9,40 @@
 window.SEED_REMOVE = ['seed-fluffy-pancakes'];
 window.SEED_RECIPES = [
   {
+    id: 'seed-becky-cinnamon-rolls', rev: 1, lang: 'en', title: "Becky's cinnamon rolls", servings: null,
+    items: [
+      { s: 'Dough' },
+      { n: 'warm milk', g: 250, tsp: 5 },
+      { n: 'melted butter', g: 90, tsp: 4.7 },
+      { n: 'all-purpose flour', g: 600, tsp: 2.6, sb: 1 },
+      { n: 'salt', g: 4, tsp: 6 },
+      { n: 'white sugar', g: 125, tsp: 4.2 },
+      { n: 'yeast', g: 10, tsp: 3.1 },
+      { n: 'vanilla extract', g: 10, tsp: 4.2 },
+      { s: 'Filling' },
+      { n: 'brown sugar', g: 213, tsp: 4.4 },
+      { n: 'cinnamon', g: 10.4, tsp: 2.6 },
+      { n: 'nutmeg', g: 2.2, tsp: 2.2 },
+      { n: 'melted butter', g: 75.7, tsp: 4.7, chk: 1 },
+      { s: 'Frosting' },
+      { n: 'cream cheese (Philadelphia)', t: 'amount?', chk: 1 },
+      { n: 'butter, soft (room temperature)', g: 56.8, tsp: 4.7, chk: 1 },
+      { n: 'icing sugar', g: 60, tsp: 2.5 },
+      { n: 'vanilla extract', g: 2.1, tsp: 4.2 },
+      { n: 'salt', t: 'amount?', chk: 1 }
+    ],
+    steps: [],
+    notes: "Becky's handwritten recipe.\nDough: Becky's own grams are used. The cup amounts on her note were only a guide and don't match exactly (e.g. ½ cup sugar ≈ 100 g, she wrote 125 g).\nFilling and frosting were converted from cups and spoons, so the grams are estimates. Weigh them the first time.",
+    check: [
+      'Add the steps (mixing, rising, rolling, baking temperature and time).',
+      'No eggs in the dough. Is that right?',
+      'Filling and frosting butter say only "1/3" and "1/4": I assumed cups (≈ 76 g and ≈ 57 g).',
+      'How much cream cheese for the frosting?',
+      'Frosting: is the ½ teaspoon for the vanilla only, or for the salt too?',
+      'How many rolls does it make? Set it as Servings.'
+    ]
+  },
+  {
     id: 'seed-fluffy-pancakes-2', rev: 1, lang: 'en', title: 'Fluffy pancakes', servings: null,
     items: [
       { n: 'all-purpose flour', g: 187.5, tsp: 2.6, sb: 1 },
