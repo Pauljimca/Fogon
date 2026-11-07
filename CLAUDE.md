@@ -17,9 +17,9 @@ Pushing to `main` updates the app on every phone the next time it is opened onli
 - Anything added here reaches everyone using the app (Paul and his wife).
 
 ## Adding Paul's recipes (he pastes notes or photos and says "add to Fogón")
-- Everything in grams. Convert cups/spoons/ml with typical weights per ingredient; say these are estimates.
+- Everything in grams. Convert cups/spoons/ml with typical weights per ingredient; say these are estimates. Oven temperatures in °C (convert °F).
 - Store exact estimates in `g` (e.g. ¾ tsp coriander = 1.5); the app rounds for display.
-  At 1× the app shows the recipe's own numbers; scaled, it rounds (whole g; nearest 5 g from 100 g; nearest 10 g from 1 kg).
+  The app always rounds to the nearest whole gram (Paul adjusts by hand); under 1 g shows as "under 1 g".
 - Add `tsp` (grams per teaspoon) to small-amount ingredients so a spoon guide shows under 5 g. Paul's scale has 1 g steps.
 - Counted items: `egg: 1` for eggs; `pc: [grams per piece, 'singular', 'plural']` for things like oranges or garlic cloves.
 - No amount given → `t: 'amount?'` (or 'al gusto' / '1 pinch' when that's what he means) with `chk: 1` if it needs an answer.

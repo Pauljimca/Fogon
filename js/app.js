@@ -358,7 +358,7 @@
       <section class="panel"><p class="muted small">${h(t('backupHelp'))}</p>
         <div class="row"><button type="button" class="btn" data-act="export">${h(t('exportBtn'))}</button><label class="btn ghost">${h(t('importBtn'))}<input type="file" accept=".json,application/json" data-act="restore" hidden></label></div></section>
       <h2 class="sec">${h(t('about'))}</h2>
-      <section class="panel"><p class="small">${h(t('aboutBody'))}</p><p class="muted small">Fogón 2.1</p></section>`;
+      <section class="panel"><p class="small">${h(t('aboutBody'))}</p><p class="muted small">Fogón 2.2</p></section>`;
     $('#egg').onchange = e => { const v = pnum(e.target.value); if (v >= 20 && v <= 90) { S.eggWeight = v; saveS(); } };
   }
   async function exportBackup() {

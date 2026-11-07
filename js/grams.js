@@ -16,10 +16,7 @@
   function roundG(g, exact) {
     if (g == null || isNaN(g)) return null;
     if (g < 1) return g;               // shown as "<1 g"
-    if (exact) return Math.round(g);   // unscaled: keep the recipe's own numbers
-    if (g < 100) return Math.round(g);
-    if (g < 1000) return Math.round(g / 5) * 5;
-    return Math.round(g / 10) * 10;
+    return Math.round(g);              // always the nearest whole gram
   }
   let NUMLANG = null;
   function setNumLang(l) { NUMLANG = l; }
