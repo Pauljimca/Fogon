@@ -9,6 +9,123 @@
 window.SEED_REMOVE = ['seed-fluffy-pancakes'];
 window.SEED_RECIPES = [
   {
+    id: 'seed-pickled-red-onions', rev: 1, lang: 'en', title: 'Pickled red onions', servings: null,
+    items: [
+      { n: 'red onion', g: 200, sb: 1 },
+      { n: 'water', g: 150, tsp: 4.9 },
+      { n: 'white wine vinegar', g: 100, tsp: 5 },
+      { n: 'sugar', g: 20, tsp: 4.2 },
+      { n: 'salt', g: 5, tsp: 6 },
+      { n: 'mustard seeds', g: 2, tsp: 3.3 },
+      { n: 'black peppercorns', g: 2, tsp: 2.9 },
+      { n: 'bay leaf', g: 0.2, pc: [0.2, 'bay leaf', 'bay leaves'] }
+    ],
+    steps: [
+      'Thinly slice the red onion.',
+      'In a saucepan, bring the water, vinegar, sugar, salt and spices to a boil.',
+      'Pour the hot pickling liquid over the onions and let cool.',
+      'Refrigerate for at least 2 hours (better overnight).'
+    ],
+    notes: 'Makes about 300 g (as the card says).\nBest with: tacos, sandwiches, grilled meats, salads, bowls and fattier fish.',
+    check: []
+  },
+  {
+    id: 'seed-pickled-cucumbers', rev: 1, lang: 'en', title: 'Pickled cucumbers with dill & garlic', servings: null,
+    items: [
+      { n: 'baby cucumbers', g: 400, sb: 1 },
+      { n: 'water', g: 250, tsp: 4.9 },
+      { n: 'white wine vinegar', g: 150, tsp: 5 },
+      { n: 'sugar', g: 20, tsp: 4.2 },
+      { n: 'salt', g: 10, tsp: 6 },
+      { n: 'garlic', g: 15, pc: [5, 'clove', 'cloves'] },
+      { n: 'dill (stems + fronds)', g: 10 },
+      { n: 'coriander seeds', g: 2, tsp: 1.8 },
+      { n: 'black peppercorns', g: 2, tsp: 2.9 }
+    ],
+    steps: [
+      'Slice the cucumbers into even rounds (3–5 mm).',
+      'Bring the water, vinegar, sugar, salt and spices to a boil.',
+      'Add the garlic and half of the dill.',
+      'Pour the hot liquid over the cucumbers, add the rest of the dill and cool.',
+      'Refrigerate for at least 4 hours (best overnight).'
+    ],
+    notes: 'Makes about 500 g (as the card says). Garlic: 3 cloves ≈ 15 g.\nBest with: burgers, grilled fish, fried chicken, roasted vegetables and sandwiches.',
+    check: []
+  },
+  {
+    id: 'seed-pickled-cauliflower', rev: 1, lang: 'en', title: 'Pickled cauliflower with turmeric & coriander', servings: null,
+    items: [
+      { n: 'cauliflower (florets)', g: 400, sb: 1 },
+      { n: 'water', g: 300, tsp: 4.9 },
+      { n: 'white wine vinegar', g: 150, tsp: 5 },
+      { n: 'sugar', g: 20, tsp: 4.2 },
+      { n: 'salt', g: 10, tsp: 6 },
+      { n: 'turmeric (powder)', g: 3, tsp: 3 },
+      { n: 'coriander seeds', g: 4, tsp: 1.8 },
+      { n: 'mustard seeds', g: 3, tsp: 3.3 },
+      { n: 'bay leaf', g: 0.2, pc: [0.2, 'bay leaf', 'bay leaves'] },
+      { n: 'chili (optional)', g: 5 }
+    ],
+    steps: [
+      'Cut the cauliflower into small florets (3–4 cm).',
+      'Bring the water, vinegar, sugar, salt and spices to a boil.',
+      'Add the cauliflower and simmer for 2–3 minutes (keep it slightly crisp).',
+      'Transfer to a jar and pour over the hot liquid.',
+      'Cool and refrigerate for at least 6 hours (best overnight).'
+    ],
+    notes: 'Makes about 500 g (as the card says).\nBest with: grilled meats, curries, cold plates, sandwiches and mezze boards.',
+    check: []
+  },
+  {
+    id: 'seed-pickled-beetroot', rev: 1, lang: 'en', title: 'Pickled beetroot with ginger & orange', servings: null,
+    items: [
+      { n: 'beetroot (cooked)', g: 400, sb: 1 },
+      { n: 'water', g: 250, tsp: 4.9 },
+      { n: 'red wine vinegar', g: 150, tsp: 5 },
+      { n: 'sugar', g: 30, tsp: 4.2 },
+      { n: 'salt', g: 8, tsp: 6 },
+      { n: 'fresh ginger', g: 20 },
+      { n: 'orange zest', g: 6, tsp: 2, pc: [6, 'orange', 'oranges'] },
+      { n: 'mustard seeds', g: 3, tsp: 3.3 },
+      { n: 'black peppercorns', g: 3, tsp: 2.9 },
+      { n: 'bay leaf', g: 0.2, pc: [0.2, 'bay leaf', 'bay leaves'] }
+    ],
+    steps: [
+      'Cook the beetroot until tender, cool, peel and slice (3–5 mm) or cut into wedges.',
+      'Bring the water, vinegar, sugar and salt to a boil.',
+      'Add the ginger, orange zest and spices, and simmer for 1 minute.',
+      'Pour the hot liquid over the beetroot.',
+      'Cool and refrigerate for at least 6 hours (best overnight).'
+    ],
+    notes: 'Makes about 500 g (as the card says). Orange zest: the card says "from 1 orange", about 6 g (estimate).\nBest with: goat cheese, grilled meats, roasted vegetables, salads and open sandwiches.',
+    check: []
+  },
+  {
+    id: 'seed-pickled-red-cabbage', rev: 1, lang: 'en', title: 'Pickled red cabbage with apple & cinnamon', servings: null,
+    items: [
+      { n: 'red cabbage', g: 400, sb: 1 },
+      { n: 'water', g: 250, tsp: 4.9 },
+      { n: 'apple cider vinegar', g: 150, tsp: 5 },
+      { n: 'sugar', g: 30, tsp: 4.2 },
+      { n: 'salt', g: 8, tsp: 6 },
+      { n: 'apple (firm)', g: 100 },
+      { n: 'cinnamon stick', g: 2.6, pc: [2.6, 'stick', 'sticks'] },
+      { n: 'cloves (spice)', g: 0.27, pc: [0.09, 'clove', 'cloves'] },
+      { n: 'black peppercorns', g: 4, tsp: 2.9 },
+      { n: 'mustard seeds', g: 4, tsp: 3.3 },
+      { n: 'bay leaf', g: 0.2, pc: [0.2, 'bay leaf', 'bay leaves'] }
+    ],
+    steps: [
+      'Thinly slice the red cabbage.',
+      'Bring the water, vinegar, sugar, salt and spices to a boil.',
+      'Add the sliced apple and simmer for 1 minute.',
+      'Pour the hot liquid over the cabbage and mix.',
+      'Cool and refrigerate for at least 6 hours (best overnight).'
+    ],
+    notes: 'Makes about 500 g (as the card says). Cinnamon stick ≈ 3 g and 3 cloves ≈ under 1 g are estimates; count them rather than weigh.\nBest with: roasted meats, burgers, grain bowls, cheese boards and sandwiches.',
+    check: []
+  },
+  {
     id: 'seed-becky-cinnamon-rolls', rev: 1, lang: 'en', title: "Becky's cinnamon rolls", servings: null,
     items: [
       { s: 'Dough' },
