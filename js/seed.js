@@ -9,6 +9,28 @@
 window.SEED_REMOVE = ['seed-fluffy-pancakes'];
 window.SEED_RECIPES = [
   {
+    id: 'seed-chocolate-chip-cookies', rev: 1, lang: 'en', title: 'Chocolate chip cookies', servings: null,
+    items: [
+      { n: 'unsalted butter', g: 125, tsp: 4.7 },
+      { n: 'light brown sugar', g: 100, tsp: 4.4 },
+      { n: 'white granulated sugar', g: 75, tsp: 4.2 },
+      { n: 'egg (medium)', g: 45, egg: 1 },
+      { n: 'vanilla (optional)', g: 4.2, tsp: 4.2 },
+      { n: 'plain flour', g: 300, tsp: 2.6, sb: 1 },
+      { n: 'baking powder', g: 6.9, tsp: 4.6 },
+      { n: 'baking soda (bicarbonate of soda)', g: 2.4, tsp: 4.8 },
+      { n: 'sea salt', g: 3, tsp: 6 },
+      { n: 'dark chocolate chips', g: 150 },
+      { n: 'milk chocolate chips', g: 150 }
+    ],
+    steps: [],
+    notes: 'Spoon amounts converted to grams (estimates): vanilla 1 tsp, baking powder 1½ tsp, baking soda ½ tsp, sea salt ½ tsp (fine sea salt; flaky salt weighs less).\nA medium egg is about 45 g without the shell.\nThe original lists 300 g chocolate chips: 150 g dark and 150 g milk.',
+    check: [
+      'Add the steps (mixing, oven temperature and time).',
+      'How many cookies does it make? Set it as Servings.'
+    ]
+  },
+  {
     id: 'seed-double-chocolate-cookies', rev: 1, lang: 'en', title: 'Double chocolate cookies', servings: null,
     items: [
       { n: 'butter', g: 90, tsp: 4.7 },
