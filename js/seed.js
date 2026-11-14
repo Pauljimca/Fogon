@@ -9,6 +9,29 @@
 window.SEED_REMOVE = ['seed-fluffy-pancakes'];
 window.SEED_RECIPES = [
   {
+    id: 'seed-double-chocolate-cookies', rev: 1, lang: 'en', title: 'Double chocolate cookies', servings: null,
+    items: [
+      { n: 'butter', g: 90, tsp: 4.7 },
+      { n: 'light brown sugar', g: 90, tsp: 4.4 },
+      { n: 'white sugar', g: 50, tsp: 4.2 },
+      { n: 'egg', g: 50, egg: 1 },
+      { n: 'vanilla', t: 'amount?', chk: 1 },
+      { n: 'flour (0000)', g: 165, tsp: 2.6, sb: 1 },
+      { n: 'unsweetened cocoa', g: 20, tsp: 1.8 },
+      { n: 'salt', t: 'amount?', chk: 1 },
+      { n: 'baking soda', g: 5, tsp: 4.8 },
+      { n: 'chopped chocolate or chocolate chips', g: 120 }
+    ],
+    steps: [],
+    notes: 'Translated from Spanish (Argentine terms): "manteca" = butter, "azúcar rubia" = light brown sugar, "cacao amargo" = unsweetened cocoa.\nFlour 0000 is a fine Argentine flour; all-purpose flour works.',
+    check: [
+      'How much vanilla?',
+      'How much salt? (a pinch?)',
+      'Add the steps (mixing, oven temperature and time).',
+      'How many cookies does it make? Set it as Servings.'
+    ]
+  },
+  {
     id: 'seed-pickled-red-onions', rev: 1, lang: 'en', title: 'Pickled red onions', servings: null,
     items: [
       { n: 'red onion', g: 200, sb: 1 },
