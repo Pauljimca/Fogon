@@ -9,6 +9,29 @@
 window.SEED_REMOVE = ['seed-fluffy-pancakes'];
 window.SEED_RECIPES = [
   {
+    id: 'seed-crispy-fried-olives', rev: 1, lang: 'en', title: 'Crispy fried olives with paprika sauce', servings: null,
+    items: [
+      { s: 'Olives' },
+      { n: 'large green olives', g: 250, sb: 1 },
+      { n: 'flour', g: 16, tsp: 2.6 },
+      { n: 'egg', g: 50, egg: 1 },
+      { n: 'breadcrumbs', g: 13.5, tsp: 2.25 },
+      { s: 'Sauce' },
+      { n: 'mayonnaise', g: 200 },
+      { n: 'shallot, chopped', g: 40, pc: [40, 'shallot', 'shallots'] },
+      { n: 'pickles, chopped', g: 60, pc: [30, 'pickle', 'pickles'] },
+      { n: 'semi-whipped cream', g: 50, tsp: 4.9, chk: 1 },
+      { n: 'paprika', g: 2.3, tsp: 2.3 }
+    ],
+    steps: [],
+    notes: 'Source: #khalidelmahi.\nConverted from spoons and pieces, so these are estimates: flour 2 tbsp ≈ 16 g, breadcrumbs 2 tbsp ≈ 14 g, paprika 1 tsp ≈ 2 g, 1 shallot ≈ 40 g, 2 pickles ≈ 60 g (pickles vary a lot in size; go by the count).',
+    check: [
+      'Cream: the recipe says 50 ml of semi-whipped cream. I put 50 g, which is right if you measure the liquid cream before whipping. Measured after whipping, it would be less cream (about 30 g). Which do you mean?',
+      'Add the steps (coating, frying, mixing the sauce).',
+      'How many servings? Set it as Servings.'
+    ]
+  },
+  {
     id: 'seed-chocolate-chip-cookies', rev: 1, lang: 'en', title: 'Chocolate chip cookies', servings: null,
     items: [
       { n: 'unsalted butter', g: 125, tsp: 4.7 },
