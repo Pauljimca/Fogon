@@ -9,6 +9,54 @@
 window.SEED_REMOVE = ['seed-fluffy-pancakes'];
 window.SEED_RECIPES = [
   {
+    id: 'seed-fudgy-brownie-cookies', rev: 1, lang: 'en', title: 'Fudgy brownie cookies (crackly top)', servings: null,
+    items: [
+      { s: 'Chocolate base' },
+      { n: 'dark chocolate', g: 200, sb: 1 },
+      { n: 'unsalted butter', g: 60, tsp: 4.7 },
+      { s: 'Sugar phase' },
+      { n: 'caster sugar', g: 90, tsp: 4.2 },
+      { n: 'brown sugar', g: 45, tsp: 4.4 },
+      { s: 'Wet ingredients' },
+      { n: 'condensed milk', g: 120, tsp: 6 },
+      { n: 'milk', g: 35, tsp: 5 },
+      { n: 'vanilla extract', g: 4.2, tsp: 4.2 },
+      { s: 'Dry ingredients' },
+      { n: 'flour', g: 55, tsp: 2.6 },
+      { n: 'cocoa powder', g: 18, tsp: 1.8 },
+      { n: 'cornstarch', g: 12, tsp: 2.7 },
+      { n: 'baking powder', g: 1.15, tsp: 4.6 },
+      { n: 'baking soda', t: '1 tiny pinch (under 1 g)' },
+      { n: 'salt', g: 1.5, tsp: 6 },
+      { s: 'Add-ins' },
+      { n: 'chocolate chips', g: 100 }
+    ],
+    steps: [
+      '## Melt chocolate & butter',
+      'In a bowl, melt the dark chocolate and butter until smooth and glossy.',
+      '## Aerate the sugars',
+      'Add the caster sugar and brown sugar.',
+      'Whisk well for 2–3 minutes until the mixture looks slightly lighter and glossy and the sugars begin dissolving slightly.',
+      '## Add wet ingredients',
+      'Add the condensed milk, milk and vanilla.',
+      'Whisk until smooth and combined.',
+      '## Add dry ingredients',
+      'Sift in the flour, cocoa powder, cornstarch, baking powder, baking soda and salt.',
+      'Fold gently until just combined. Do not overmix.',
+      '## Add chocolate chips',
+      'Fold in the chocolate chips. The batter will look thick, glossy and brownie-like.',
+      '## Scoop & bake',
+      'Preheat the oven to 175 °C.',
+      'Scoop onto a lined tray with enough spacing between each cookie. Top with extra chocolate chips if desired.',
+      'Bake for 12–15 minutes. The cookies will spread while baking.',
+      'As soon as they come out of the oven, use a large round cutter, bowl or circular ring to swirl around the cookies and shape them into perfect circles while still hot.'
+    ],
+    notes: 'Source: #chefyuvrajdewan (Instagram).\nResult: shiny crackly tops, fudgy centers, crisp edges, rich brownie texture and gooey chocolate pockets.\nThe post gives grams for almost everything; spoon amounts converted (estimates): vanilla 1 tsp ≈ 4 g, baking powder ¼ tsp ≈ 1 g, salt ¼ tsp ≈ 2 g.',
+    check: [
+      'How many cookies does it make? Set it as Servings.'
+    ]
+  },
+  {
     id: 'seed-pastel-matilda', rev: 1, lang: 'es', title: 'Pastel de Matilda', servings: null,
     items: [
       { s: 'Bizcocho de chocolate' },
