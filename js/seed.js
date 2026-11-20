@@ -9,6 +9,34 @@
 window.SEED_REMOVE = ['seed-fluffy-pancakes'];
 window.SEED_RECIPES = [
   {
+    id: 'seed-sweet-potato-rolls', rev: 1, lang: 'en', title: 'Homemade sweet potato rolls', servings: 8, servingsLabel: 'rolls',
+    items: [
+      { n: 'sweet potato (large)', g: 300, pc: [300, 'sweet potato', 'sweet potatoes'], sb: 1 },
+      { n: 'egg', g: 100, egg: 1 },
+      { n: 'powdered milk (plus a little extra if needed)', g: 50, tsp: 2 },
+      { n: 'baking powder', g: 4.6, tsp: 4.6 },
+      { n: 'salt', t: '1 pinch (under 1 g)' },
+      { n: 'cinnamon', t: '1 pinch (under 1 g)' },
+      { n: 'oil, for greasing your hands', t: 'a little' },
+      { n: 'egg yolk, for brushing', g: 18, pc: [18, 'yolk', 'yolks'] },
+      { n: 'sesame seeds', t: 'to taste' }
+    ],
+    steps: [
+      'Cook the sweet potato whole, with the skin on, in boiling water until fork-tender (about 30 minutes).',
+      'Peel while still warm and mash thoroughly until smooth and free of lumps.',
+      'Add the eggs and mix well.',
+      'Add the powdered milk, baking powder, salt and cinnamon. Mix until the dough starts pulling away from the bowl.',
+      'If it\'s too soft, add a little more powdered milk, about 6 g at a time.',
+      'Lightly grease your hands with oil, shape the dough into small rolls, and place them on a parchment-lined baking tray.',
+      'Brush with egg yolk and sprinkle sesame seeds on top.',
+      'Bake at 180 °C for 25–30 minutes, or until golden brown. Avoid opening the oven before they\'re ready.'
+    ],
+    notes: 'Source: recipes_emily (Instagram). The post is labeled "AI content", so the recipe may not have been tested. Check the dough as you go.\nThe post gives the grams for the sweet potato (300 g) and powdered milk (50 g). "One tablespoon at a time" of powdered milk ≈ 6 g.',
+    check: [
+      'The video shows yogurt going into the bowl, but yogurt isn\'t in the ingredient list. Does it need yogurt, and how much?'
+    ]
+  },
+  {
     id: 'seed-crispy-fried-olives', rev: 1, lang: 'en', title: 'Crispy fried olives with paprika sauce', servings: null,
     items: [
       { s: 'Olives' },
