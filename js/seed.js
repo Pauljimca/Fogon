@@ -9,6 +9,56 @@
 window.SEED_REMOVE = ['seed-fluffy-pancakes'];
 window.SEED_RECIPES = [
   {
+    id: 'seed-pastel-matilda', rev: 1, lang: 'es', title: 'Pastel de Matilda', servings: null,
+    items: [
+      { s: 'Bizcocho de chocolate' },
+      { n: 'leche entera', g: 330, tsp: 5 },
+      { n: 'vinagre blanco', g: 22.5, tsp: 5 },
+      { n: 'harina de trigo', g: 375, tsp: 2.6, sb: 1 },
+      { n: 'azúcar', g: 262.5, tsp: 4.2 },
+      { n: 'cacao en polvo sin azúcar', g: 83, tsp: 1.8 },
+      { n: 'bicarbonato de sodio', g: 14, tsp: 4.8 },
+      { n: 'polvo para hornear', g: 6.9, tsp: 4.6 },
+      { n: 'sal', g: 6, tsp: 6 },
+      { n: 'huevo', g: 150, egg: 1 },
+      { n: 'aceite vegetal', g: 320, tsp: 4.5 },
+      { n: 'café soluble', g: 1.5, tsp: 1 },
+      { n: 'agua hirviendo', g: 360, tsp: 4.9 },
+      { s: 'Cobertura fudge' },
+      { n: 'gotas de chocolate', g: 100 },
+      { n: 'azúcar', g: 300, tsp: 4.2 },
+      { n: 'maicena', g: 170, tsp: 2.7, chk: 1 },
+      { n: 'cacao en polvo sin azúcar', g: 65, tsp: 1.8 },
+      { n: 'café soluble', g: 0.75, tsp: 1 },
+      { n: 'sal', g: 3, tsp: 6 },
+      { n: 'agua fría', g: 675, tsp: 4.9 },
+      { n: 'mantequilla sin sal, fría', g: 75, tsp: 4.7 }
+    ],
+    steps: [
+      '## Bizcocho de chocolate',
+      'Precalienta el horno a 160 °C.',
+      'Mezcla la leche con el vinagre y deja reposar unos minutos.',
+      'En un recipiente, combina la harina, el azúcar, el cacao, el bicarbonato, el polvo para hornear y la sal.',
+      'Agrega los huevos, el aceite y la mezcla de leche. Remueve hasta integrar.',
+      'Disuelve el café soluble en el agua hirviendo e incorpóralo poco a poco a la preparación.',
+      'Vierte la masa en un molde preparado y hornea a 160 °C durante aproximadamente 70 minutos.',
+      'Comprueba la cocción con un palillo y deja enfriar.',
+      '## Cobertura fudge',
+      'En una olla, mezcla el azúcar, la maicena, el cacao, el café soluble y la sal.',
+      'Añade poco a poco el agua fría mientras bates para evitar grumos.',
+      'Cocina a fuego medio, removiendo constantemente hasta que espese.',
+      'Retira del fuego, agrega las gotas de chocolate y mezcla hasta que se derritan.',
+      'Incorpora la mantequilla fría y remueve hasta conseguir una cobertura homogénea.',
+      'Deja que la cobertura pierda un poco de temperatura y utilízala para rel…'
+    ],
+    notes: 'Fuente: dulceadiccion.7 (Instagram).\nCucharas convertidas a gramos (estimados): vinagre 1½ cdas ≈ 23 g, polvo para hornear 1½ cdtas ≈ 7 g, sal 1 cdta ≈ 6 g y ½ cdta ≈ 3 g, café soluble 1½ cdtas ≈ 2 g y ¾ cdta (menos de 1 g). 360 ml de agua = 360 g.',
+    check: [
+      'El último paso está cortado ("utilízala para rel…"). ¿Rellenar y cubrir el bizcocho?',
+      '170 g de maicena me parece mucha para 675 g de agua: quedaría muy espesa. ¿Es correcto, o será menos (por ejemplo 70 g)? Confírmalo antes de prepararla.',
+      '¿Qué tamaño de molde y cuántas porciones?'
+    ]
+  },
+  {
     id: 'seed-sweet-potato-rolls', rev: 1, lang: 'en', title: 'Homemade sweet potato rolls', servings: 8, servingsLabel: 'rolls',
     items: [
       { n: 'sweet potato (large)', g: 300, pc: [300, 'sweet potato', 'sweet potatoes'], sb: 1 },
