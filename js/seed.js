@@ -9,6 +9,66 @@
 window.SEED_REMOVE = ['seed-fluffy-pancakes'];
 window.SEED_RECIPES = [
   {
+    id: 'seed-birria-tacos', rev: 1, lang: 'en', title: 'Birria tacos', servings: null,
+    items: [
+      { s: 'Birria' },
+      { n: 'beef chuck', g: 907.2, sb: 1 },
+      { n: 'bone-in beef shank', g: 680.4 },
+      { n: 'guajillo chiles (dried)', g: 36, pc: [6, 'chile', 'chiles'] },
+      { n: 'ancho chiles (dried)', g: 60, pc: [12, 'chile', 'chiles'] },
+      { n: 'árbol chiles (dried)', g: 2.5, pc: [0.5, 'chile', 'chiles'] },
+      { n: 'small bay leaves', g: 0.6, pc: [0.2, 'bay leaf', 'bay leaves'] },
+      { n: 'black peppercorns', g: 8.7, tsp: 2.9 },
+      { n: 'cloves (spice)', g: 0.36, pc: [0.09, 'clove', 'cloves'] },
+      { n: 'coriander seeds', g: 5.4, tsp: 1.8 },
+      { n: 'cinnamon stick', g: 2.6, pc: [2.6, 'stick', 'sticks'] },
+      { n: 'garlic', g: 60, pc: [5, 'clove', 'cloves'] },
+      { n: 'large tomatoes', g: 900, pc: [180, 'tomato', 'tomatoes'] },
+      { n: 'white onion, halved', g: 150, pc: [150, 'onion', 'onions'] },
+      { n: 'apple cider vinegar', g: 5, tsp: 5 },
+      { n: 'ground cumin', g: 4, tsp: 2 },
+      { n: 'dried oregano', g: 3, tsp: 1 },
+      { n: 'salt', t: 'to taste' },
+      { n: 'ground black pepper', t: 'to taste' },
+      { n: 'water', g: 1422, tsp: 4.9 },
+      { n: 'more water, as needed', t: '475–710 g (2–3 cups)' },
+      { n: 'oil, for searing and greasing', t: 'a little' },
+      { s: 'To assemble' },
+      { n: 'corn tortillas', t: 'as needed' },
+      { n: 'Oaxaca cheese', t: 'as needed' },
+      { n: 'chopped white onion & cilantro', t: 'as needed' },
+      { n: 'lime wedges', t: 'as needed' }
+    ],
+    steps: [
+      '## Prep',
+      'Remove the chile stems and discard the seeds.',
+      'Dry-roast the bay leaves, peppercorns, cloves, coriander and cinnamon until fragrant. Set aside.',
+      '## Sauce',
+      'Add the water ({1422 g}) to a pot with the chiles, toasted spices, garlic, tomatoes and halved onion. Boil for 15 minutes, until softened.',
+      'Blend the solids with about 3 cups of the cooking water until smooth.',
+      '## Meat',
+      'Season the beef generously with salt and pepper.',
+      'Sear in a little oil over high heat until browned on both sides, working in batches.',
+      'Return all the beef to the pressure cooker and add the sauce.',
+      'Rinse the blender with 475–710 g of water and add as needed.',
+      'Stir in the vinegar, cumin, oregano and salt. Keep below your cooker\'s maximum fill line.',
+      'For a stovetop pressure cooker: cook over high heat for about 10 minutes, then reduce the heat to low for 40 minutes, maintaining pressure.',
+      'Turn off the heat and let the pressure release naturally before opening.',
+      '## Shred',
+      'Remove the beef from the broth, discard the bones and shred.',
+      'Mix in enough broth to keep it juicy (about 2 cups). Adjust the seasoning.',
+      '## Assemble',
+      'Dip each tortilla in the fat on top of the consommé and place it in a lightly greased pan.',
+      'Add cheese, about 3 tbsp of beef, onion and cilantro.',
+      'Fold in half and cook on both sides until crisp and the cheese melts.',
+      'Serve with consommé for dipping and lime wedges.'
+    ],
+    notes: 'From the series "episode 1 – mexico" (Instagram).\nConverted from pounds, cups, spoons and pieces: beef 2 lb ≈ 907 g + 1.5 lb ≈ 680 g; water 6 cups ≈ 1,422 g. Chiles, tomatoes, garlic and spices are estimates per piece or spoon: go by the count (6 guajillo, 5 ancho, 5 árbol, 3 bay leaves, 4 cloves, 1 cinnamon stick, 12 garlic cloves, 5 large tomatoes).\nThe "consommé" is the broth left in the pot.',
+    check: [
+      'How many tacos does it make? Set it as Servings.'
+    ]
+  },
+  {
     id: 'seed-fudgy-brownie-cookies', rev: 1, lang: 'en', title: 'Fudgy brownie cookies (crackly top)', servings: null,
     items: [
       { s: 'Chocolate base' },
